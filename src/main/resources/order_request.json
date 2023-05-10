@@ -1,0 +1,41 @@
+{
+  "totalOrderValue": "5.00",
+  "totalDiscount": "0.0",
+  "totalOrderValuePostDiscount": "5.00",
+  "totalCouponDiscount": "5.00",
+  "totalTax": "0.25",
+  "movFee": "15.00",
+  "deliveryFee": "10.00",
+  "netInvoice": "30.25",
+  "outletId": "001234567",
+  "item": [
+    {
+      "product": "12345678901234",
+      "desc": " ABCD 12 pack",
+      "qty": "1",
+      "basePrice": "5.00",
+      "itemPrice": "5.00",
+      "adjustments": [
+        {
+          "adjustment": "",
+          "amount": "0.00",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "product": "12345678901235",
+      "desc": "Aha 12 pack",
+      "qty": "1",
+      "basePrice": "5.00",
+      "itemPrice": "0.00",
+      "adjustments": [
+        {
+          "adjustment": "Buy one get one",
+          "amount": "-5.00",
+          "desc": ""
+        }
+      ]
+    }
+  ]
+}
