@@ -11,7 +11,7 @@
 
 ---
 
-# #3 My Sql transaction query
+## #3 My Sql transaction query
 
 ### Create index:
 - index will allow the database to quickly locate the most recent records and retrieve them efficiently\
@@ -25,7 +25,7 @@
 
 ---
 
-# #4 My Sql transaction clean up?
+## #4 My Sql transaction clean up?
 
 ### Delete data:
 - delete data in batches; to monitor deletes in production
@@ -38,7 +38,7 @@
 
 ---
 
-# #5 You have a java process running on a Linux EC2 in production that is running out of memory daily in production even though there are 16 GB allocated to the JVM.
+## #5 You have a java process running on a Linux EC2 in production that is running out of memory daily in production even though there are 16 GB allocated to the JVM.
 
 ### Identify memory leaks:
 - using tools like `jProfiler` & `jvisualvm` we can check the memory usage and garbage collectors efficiency
@@ -58,7 +58,7 @@
 - scaling the application horizontally by adding more instances
 
 ---
-# #7 You are running a web application on Jetty and Apache on a Linux operating system, and you want to make sure no one can exploit any unknown vulnerability in the site you created to gain root access to the Linux Operating System.
+## #7 You are running a web application on Jetty and Apache on a Linux operating system, and you want to make sure no one can exploit any unknown vulnerability in the site you created to gain root access to the Linux Operating System.
 
 ### Non-root user:
 - non-root user accounts with the minimal access to run the application
@@ -80,7 +80,7 @@
 - logging 
 
 ---
-# #8 My Sql truncate vs delete.
+## #8 My Sql truncate vs delete.
 
 ### Truncate:
 - removes all data from the table
@@ -110,7 +110,7 @@ together in this way, we can efficiently and reliably integrate data into your t
 
 ---
 
-# #9 You have multi-threaded java application where the threads appear to dead lock in production.
+## #9 You have multi thread java application where the threads appear to dead lock in production.
 
 ### Analysis:
 - using tools like `VisualVM` by identifying the thread states & locks from thread dumps
@@ -121,7 +121,7 @@ together in this way, we can efficiently and reliably integrate data into your t
 
 
 ### Fix Code:
-- fix the code for multi-threaded environment
+- fix the code for multi thread environment
 - use concurrency
 - efficient resource locking / unlocking
 
